@@ -1,0 +1,341 @@
+﻿//想要恢复从前
+<MARKER NAME="#離別エンド">
+<clear>
+<BACKGROUND SRC="bc04me0" shade="4">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<voice NAME="郁紀" SRC="20\000100">「这自不用说，如果能恢复的话，我当然想恢复了」<k>
+　
+　我都没怎么太多思考，就这样回答。我完全不觉得自己还能有除此之外的回答。<k>
+　我老早就不对这件事过多考虑了。如果是几个月之前的我，肯定丝毫都不会迷茫的吧。
+
+　但对现在的我而言是怎么样呢？　现在期望这些意味着什么，会给我和沙耶带来什么——一想到这些，我就忽然搞不懂自己的本心究竟是怎样了。<k>
+　被沙耶催促着做出的回答，让我如此的不安。
+
+<clear>
+<BACKGROUND SRC="23">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<voice NAME="沙耶" SRC="20\000201">「这样啊……嗯，是哦。这是当然的呢」<k>
+　
+　这时沙耶露出的表情，是一副可以看出有些悲伤，但同时似乎又可以看出有几分安心的微笑。看到她这幅笑脸的我变得有些许的不安。简直就跟我只要轻率地说错一句话，就会无可挽回地伤害到沙耶似的。<k>
+　
+<voice NAME="郁紀" SRC="20\000300">「呐，沙耶，我……」<k>
+<voice NAME="沙耶" SRC="20\000401">「没关系，郁纪。什么都不用说了」
+
+<clear>
+<LAYER SRC="#000000" TRANSPARENT="50" NUM="1">
+<BACKGROUND SRC="bc04me0" shade="4">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　沙耶像是要堵住我话似地吻上了我，用比刚刚更为热情的舌头的动作索求起了我。那甜美的舌头的触感让我陶醉。但另一方面也让我开始焦虑，无可抑制地就是想要将刚刚被沙耶打断的那句重要的话说出口。
+
+<clear>
+<LAYER SRC="#000000" TRANSPARENT="80" NUM="1">
+<BACKGROUND SRC="bc04me0" shade="4">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<voice NAME="郁紀" SRC="20\000500">「沙耶——」<k>
+　
+　然而为什么——就是说不出口。思维不能正常运转。沙耶的吻陶醉的不只是我的嘴唇，而是蔓延向了全身，让我的意识朦胧了。
+
+<voice NAME="沙耶" SRC="20\000601">「晚安，郁纪」<k>
+　
+　我感觉远远地听到了沙耶温柔的呢喃声。<k>
+　
+<voice NAME="沙耶" SRC="20\000701">「不用担心。下次你醒来的时候，一切就都结束了」
+
+<clear>
+<BACKGROUND SRC="#000000">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　这就，麻烦了。<k>
+　在进入梦乡前，至少——让我说出来——那不得不对你说的话<k>
+　我徒劳地这样祈祷着，但还是陷入了深深的忘却。
+
+<bgm src="s05" mode="fadeout" time="20" loop="off">
+<clear>
+<WIPE EFFECT="fade" TIME="20">
+<wait time="900">
+<se id="1" src="朝" mode="normal" loop="off">
+<bgm src="s02" mode="fadein" old="fadeout" time="10" loop="on">
+<BACKGROUND SRC="bc04mo_b0">//
+<WIPE EFFECT="fade" TIME="20">
+<wait time="200">
+<box type="9">
+　在我醒来的那一刻，首先感觉到的是一股腐臭。<k>
+　铃见的尸体开始落苍蝇，那气味理所当然的，是腐肉的味道。我也能这样的的确确地闻出来了。<k>
+　天已经亮了。在投射进来的黎明的光芒中，已经看不到沙耶的身影了。
+
+　若是忽略那淌满鲜血的地面，那这里就是我从小看惯了的自家的厨房。而直到昨天颜色都还让我感到些许安心的起居室的那颜色，现在回头再看，让我痛彻地感受到至今为止和世界的距离之远。
+
+<clear>
+<BACKGROUND SRC="bc05mo0">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　明知是徒劳的，但我还是在家中徘徊着寻找沙耶的身影。将近一个小时的时间里一直在找，重复着徒劳地努力不肯接受现实。
+
+<clear>
+<BACKGROUND SRC="bc03no0">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　在那之后我给警察打了电话。话筒里传来的声音，让我怀念到不由自主地流出了眼泪。真的是好久没有听到过沙耶之外的人类的声音了。
+
+<clear>
+<BACKGROUND SRC="#000000">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<BACKGROUND SRC="bc01no0">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　这些都是我之后才知道的了，铃见在被我杀死之前，似乎杀了自己的家人。警察不肯理解这其中的顺序，将我以杀害他们一家三口的嫌疑逮捕了。并且更是从我家里搜出了高畠青海的遗物，我的罪状便被定在了杀害四人以及毁灭尸体上了。<k>
+　
+　对我调查的时候，我老实而又准确地如实说了一切。警察们自然是不肯相信，但之后来的精神科医生相信了我，将我转移到了比拘留所更加清净的纯白的房间。
+
+<clear>
+<BACKGROUND SRC="bb03no0">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　没错，这个房间的纯白，在我眼中是极为普通的纯白。<k>
+　结果，这一连串事件似乎就以我无法偿还罪责为结论而收场了。<k>
+　我所体验的事的的确确是现实。然而，那是与这个房间外的世界不相容的现实。所以医生才分隔出了这个小小的空间，将它送给我一人。作为让我活在我自己现实中的场所。
+
+　虽然很悲伤，但我觉得是无可奈何的。更加庞大的人群所相信着的大多数人的现实，缔造了这个世界。而我则踏入了超过此范围的场所。<k>
+　现在，这个房间的墙壁一片纯白。光是这个事实我就很感激了，我将度过今后的生涯。
+
+<clear>
+<BACKGROUND SRC="bb03no1">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　并没有名叫沙耶的少女。所有人都异口同声地如此断言。既然这样那就行吧。估计他们的世界中真的就没有沙耶存在吧。<k>
+　但若是在只有我一个人的这个房间里，那让我听听沙耶的声音不也行吗。因为这里是只属于我的现实——是我和沙耶一同度过的，那的的确确是为现实的日子，所延续的地方。
+
+<bgm src="s02" mode="fadeout" time="20" loop="off">
+<clear>
+<BACKGROUND SRC="#000000">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<BACKGROUND SRC="bb03da0">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　我这样想着、等着、不断等着、不知过了多久。<k>
+　
+<se id="1" src="沙耶移動2" mode="normal" loop="off" vol="70">
+　某天夜里，有什么东西爬过走廊地面的声音让我醒了过来。<k>
+　若在平时，这种程度的声音并不会打扰到我睡觉，但那一夜或许是我感受到了某种预感吧。在比平时要更浅的睡眠中，我感受到了她的气息。所以马上就明白了过来。
+
+<bgm src="s06" mode="fadein" old="fadeout" time="10" COUNT="1;-1" LOOP="on">
+<voice NAME="郁紀" SRC="20\000800">「是沙耶吧？」<k>
+<voice NAME="沙耶" SRC="20\000901" vol="10">
+『……』<k>
+　
+　并没有回答。但门外却清清楚楚地，传来她有些纠结似的气息。<k>
+　
+<voice NAME="郁紀" SRC="20\001000">「呐，为什么不让我听听你的声音呢？」<k>
+<voice NAME="沙耶" SRC="20\001101" vol="10">
+『……』
+
+　似乎在犹豫似地沉默了一阵子后，从门上的细细的外视窗中，递进来了一个小小的器械。
+
+<clear>
+<BACKGROUND SRC="bt03xx0">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　那是一部手机。已经进入了记事本功能，液晶画面上显示着一串输好的文字。
+
+<box type="5">
+『我的声音，
+听上去肯定很奇怪』<k>
+
+<box type="9">
+　我不由地觉得有些好笑，噗嗤笑了起来。原来沙耶也会像这样有害羞的事啊。
+
+<clear>
+<BACKGROUND SRC="56">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<voice NAME="郁紀" SRC="20\001200">「这种事我完全不在意。我想听听你的声音。看看你的样子」<k>
+　
+　我这样说着，将手机从外视窗中递回去。过了一阵子，手机再度被递了回来。<k>
+
+<box type="5">
+『我希望能一直做你心中的那个沙耶。拜托了。原谅我吧』
+
+<box type="9">
+<voice NAME="郁紀" SRC="20\001300">「……这样啊」
+
+　这是我隐隐约约已经察觉到了的。<k>
+　看一切都是扭曲的我的眼中，唯有沙耶一人有着正常的姿态。我本觉得只有她是特别的。<k>
+　但实际上——这所谓的“特别”，含义其实是不同的。并不是只有她一人不会扭曲。而是因为她有着扭曲了才反而会看着正常的，特别的姿态。
+
+　沙耶真正姿态，和我所知的并不一样。而现在的我，肯定能看到那副姿态了吧。<k>
+　但沙耶她本人不愿意的话就没办法了。女孩子的这种心理，我也不是不能理解。我应该要体谅她吧。<k>
+　
+<voice NAME="郁紀" SRC="20\001400">「你还记得吗？那天我想对你说的话——还没说出口」<k>
+　
+　我这样问她，同时又把手机递了回去。
+
+<box type="5">
+『我还以为你，
+已经忘了呢』
+
+<box type="9">
+　递回来的液晶屏幕上的文本，让我苦笑。在她心里我是那么薄情的家伙吗。<k>
+　
+<voice NAME="郁紀" SRC="20\001500">「我怎么可能忘了呢」<k>
+　
+<bgm src="s06" mode="fadeout" time="20" loop="off">
+　虽然估计没人在听……但后续的话，果然还是很害羞。这次我操作着手机键盘，输入了文字。
+
+<se id="1" src="携帯入力" mode="normal" loop="off">
+<clear>
+<BACKGROUND SRC="bt03xx0">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<se id="1" src="携帯入力2" mode="normal" loop="off">
+　Ｗ——<k>
+　ＭＮＯ——<k>
+　Ａ、ＧＨＩ——<k>
+　ＭＮ——<k>
+　ＧＨＩ——<k>
+　点选、确认——我将手机从外视窗递了回去。
+
+<bgm src="s11" mode="fadein" old="fadeout" time="10" COUNT="1;-1" LOOP="on">
+<clear>
+<BACKGROUND SRC="bb03da1">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　我感到窗外的人，好像在颤抖。<k>
+　并没有听到声音，也没有看到情况。但即便如此，不知为何我就是明白。……沙耶哭了。忍着声音哭了。
+
+<clear>
+<BACKGROUND SRC="56">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<voice NAME="郁紀" SRC="20\001600">「……我，没关系的」<k>
+　
+　事到如今说这些，或许无法起到任何的安慰。<k>
+　但是，我——嗯，没关系的。<k>
+　我曾想要恢复原来的身体。但那种期望要是抛弃掉就好了。无论在哪儿都陪伴着沙耶，即便要踏入禁忌的领域，我也想要和她手牵着手一同前进。
+
+　沙耶应该也明白的。明白我的觉悟。她是知道那一天我想要说什么，所以才阻止了我。因为要是听了我那句话，就会无法回头了。<k>
+　在变成那样之前，她结束了一切，从我身边离开了。
+
+<box type="5">
+『对不起。
+我，太懦弱了』
+
+<box type="9">
+　看到递回来的手机的屏幕，我摇了摇头。<k>
+　
+<voice NAME="郁紀" SRC="20\001700">「这不是你一个人的错。那时候我要是没有迷茫的话，你也就能鼓起勇气了。不是吗？」
+
+<box type="5">
+『我好害怕，害怕你因为我而改变』
+
+<box type="9">
+<voice NAME="郁紀" SRC="20\001800">「这是没办法的」
+　
+　没有办法。沙耶没能夺走我的一切，我也没能抛弃一切，我们都没能做到。我们两个，都太过弱小，以至于无法抓住幸福。
+
+<voice NAME="郁紀" SRC="20\001900">「沙耶你，今后要怎样？」
+
+<box type="5">
+『我要继续去找爸爸。如果是他的话，应该知道让我回到我曾呆过的地方的方法』
+
+<box type="9">
+<voice NAME="郁紀" SRC="20\002000">「这样啊……沙耶你想回去吗？」<k>
+　
+　声音和文字的交流中，出现了一阵间隔。这段间隔，估计就是她不断在脑海中思索「Ｙｅｓ」和「Ｎｏ」的时间吧。
+
+<clear>
+<BACKGROUND SRC="bt03xx0">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="5">
+『嗯』
+
+<box type="9">
+　终于手机递了回来，那上面的文字，看上去莫名地让人放不下心。<k>
+　
+<voice NAME="郁紀" SRC="20\002100">「这样啊。要是能找到你父亲就好了呢」
+
+<box type="5">
+『我会加油的』
+
+<box type="9">
+　离别的时候到了。她决定了自己的道路，我祝福了她。在此之上不需要多余的话了。
+
+<clear>
+<BACKGROUND SRC="bb03da1">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<voice NAME="郁紀" SRC="20\002200">「如果你改变了心意……我一直都在这里。随时来吧」
+
+<box type="5">
+『嗯，谢谢。<k>
+　　　　　再见了，郁纪』<k>
+
+<box type="9">
+　看完最后的文字，我无言地直接将手机递回了外面。<k>
+　
+<voice NAME="郁紀" SRC="20\002300">「再见，沙耶」<k>
+　
+<se id="1" src="沙耶移動1" mode="normal" loop="off">
+　如同是在回答我一样，她啪嗒啪嗒地轻轻敲了敲门，然后又发出着噌噌的在地面爬过的声音，从走廊渐渐远去了。<k>
+　
+　于是，夜晚的寂静之中，又独留我一个人。
+
+<bgm src="s11" mode="fadeout" time="20" loop="off">
+<clear>
+<BACKGROUND SRC="#000000">//
+<WIPE EFFECT="fade" TIME="20">
+<wait time="900">
+<BACKGROUND SRC="bb03no0">//
+<WIPE EFFECT="fade" TIME="20">
+<wait time="200">
+<box type="9">
+　自那天以来，我一直在等待。
+
+　沙耶或许真的回到了她该回的地方。<k>
+　又或许不断地在搜寻父亲的行踪，至今也还在某处徘徊着。<k>
+　我想她一定很艰辛，一定很寂寞吧。
+
+　如果她无法忍受孤独了、遇到挫折了、那她肯定会再回到我这里吧。<k>
+　因为能够温柔地和她说话，抚慰她的人，就只有我了。
+
+<clear>
+<BACKGROUND SRC="24">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　所以我等着。边在梦中听着她的声音，看着她的面容，边不断等着。<k>
+　
+　在这个一片纯白的只属于我的世界，一直等下去。
+
+<CALC WORKNAME="ENDING" OPERATOR="1" MODE="global">
+<clear>
+<BACKGROUND SRC="#000000">//
+<WIPE EFFECT="fade" TIME="20">
+<bgm src="ガラスの靴" mode="normal" loop="off">
+<SYSTEM MENU="#FFE">
+<SYSTEM CMD="ending" ROLL="staff">
+<END>
+

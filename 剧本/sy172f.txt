@@ -1,0 +1,9 @@
+﻿//＜＜郁紀に電話ルート＞＞
+<MARKER NAME="#郁紀2">
+<voice NAME="郁紀" SRC="37\003500">「今天早上，那家伙给我打电话。总之我就把他引到无关的地方去了。打算先让他焦躁焦躁」<k>
+<BUSTUP NAME="沙耶" face="楽し目笑い" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="沙耶" SRC="37\003601">「果然还是等天黑了比较好吧？」<k>
+<voice NAME="郁紀" SRC="37\003700">「嗯嗯。我们抓个时机，把他引到这儿来结果了他。因为在这里的话任谁都不会注意到呢」
+
+<A HREF="sy173.nps" OPERATOR="">

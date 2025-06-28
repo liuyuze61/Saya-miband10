@@ -1,0 +1,242 @@
+<template>
+  <div class="page" @swipe="ban">
+    <image src="/common/cg/bg.png" style="position: absolute;width: 212px;height: 520px;left:0"></image>
+    <text class="btn" style="top: 127px;" @click="toPage('detail')">开始</text>
+    <text class="btn" style="top: 196px;" @click="toRecovery()">加载</text>
+    <text class="btn" style="top: 265px;" @click="toSettings()">设置</text>
+    <text class="btn" style="top: 334px;" @click="exit">退出</text>
+    <div class="page" style="position: absolute;background-color: #ffffff;" if="{{recovery}}" @swipe="back()">
+      <scroll scroll-y="true" bounces="true" class="scroll1 page">
+        <text class="menu-btn" for="{{recoveryData}}" style="font-size: 30px;" @click="loadRecoveryData($idx)">存档{{$idx+1}}</text>
+      </scroll>
+    </div>
+    <div class="page" style="position: absolute;background-color: #ffffff;" if="{{settingsPage}}" @swipe="ban()">
+      <image src="/common/cg/bg.png" style="position: absolute;width: 212px;height: 520px;right:0"></image>
+      <image style="position: absolute;top: 355px;left: 0;" src="/common/text_bg.png"></image>
+      <text class="text">显示速度({{settings.textSpeed}})：</text>
+      <slider class="slider" min="20" max="60" step="1" onchange="changeTextSpeed()"></slider>
+      <text class="text" style="top: 163px">文字大小({{settings.textSize}})：</text>
+      <slider class="slider" style="top: 217px" min="20" max="32" step="1" onchange="changeTextSize()"></slider>
+      <text class="text" style="top: 255px">文字颜色：</text>
+      <div class="color-box" style="background-color: #000000;left: 18px;border: 2px solid {{settings.textColor==='#000000'?'#ff0000':'#000000'}}" @click="changeTextColor('#000000')"></div>
+      <div class="color-box" style="background-color: #ffffff;left: 90px;border: 2px solid {{settings.textColor==='#ffffff'?'#ff0000':'#ffffff'}}" @click="changeTextColor('#ffffff')"></div>
+      <text class="text" style="top: 25px;left: 31px;" @click="saveSettings()">保存</text>
+      <text class="text" style="top: 25px;left: 114px;" @click="back()">退出</text>
+      <scroll scroll-y="true" bounces="true" class="scroll">
+        <text style="color: {{settings.textColor}};font-weight: bold;width: 100%;text-align: left;font-size: {{settings.textSize}}px;">{{showText}}</text>
+      </scroll>
+    </div>
+    <div class="page" style="position: absolute;background-color: #ffffff;flex-wrap: nowrap;flex-direction: column;align-items: center;justify-content: center;" if="{{tips}}" @swipe="ban()">
+      <text class="font20">在设置中调整</text>
+      <text class="font20">显示速度和文字大小</text>
+      <text class="font20">游戏中右滑进入菜单</text>
+      <text class="font20" style="color: #ff0000;">点击速度不要过快</text>
+      <text class="font20" style="color: #ff0000;">有能力请支持正版</text>
+      <text class="font20">---------------</text>
+      <text class="font20">制作：@liuyuze61</text>
+      <text class="font20">---------------</text>
+      <text class="font20" style="color: #00a2ff;" @click="closeTips()">确定</text>
+    </div>
+  </div>
+</template>
+
+<script>
+import router from "@system.router";
+import storage from '@system.storage';
+import prompt from '@system.prompt';
+
+export default {
+  private: {
+    recovery: false,
+    recoveryData: [],
+    settingsPage: false,
+    settings: {
+      textSpeed: 40,
+      textSize: 22,
+      textColor: '#000000',
+    },
+    showText: '',
+    index: 0,
+    tips: false,
+  },
+  onInit(){
+    storage.get({
+      key: 'recoveryData',
+      success: (data) => {
+        if(data){
+          this.recoveryData = JSON.parse(data);
+        }
+      },
+      fail:()=>{},
+    });
+    storage.get({
+      key: 'settings',
+      success: (data) => {
+        if(data){
+          this.settings = JSON.parse(data);
+        }
+      },
+      fail:()=>{},
+    });
+    storage.get({
+      key: 'tips',
+      success: (data) => {
+        if(data){
+          if(JSON.parse(data) !== 61){
+            this.tips = true;
+          }
+        }else{
+          this.tips = true;
+        }
+      },
+      fail:()=>{},
+    });
+  },
+  toPage(page) {
+    router.push({uri: `pages/${page}`})
+  },
+  exit(){
+    this.$app.exit()
+  },
+  ban(){
+    console.log('ban')
+  },
+  toRecovery(){
+    if(this.recoveryData.length>0){this.recovery = true}
+  },
+  toSettings(){
+    this.settingsPage = true;
+    this.zhuzi();
+  },
+  back(a){
+    if(a.direction=='right'&&this.recovery){this.recovery = false}
+    else if(this.settingsPage){this.settingsPage = false}
+  },
+  loadRecoveryData(idx){
+    router.push({
+      uri: `pages/detail`,
+      params:{load: idx}
+    })
+  },
+  changeTextSize(e){
+    this.settings.textSize = e.progress;
+  },
+  changeTextSpeed(e){
+    this.settings.textSpeed = e.progress;
+  },
+  changeTextColor(color){
+    this.settings.textColor = color;
+  },
+  zhuzi(){
+    const text = `文字速度/大小/颜色示例\n移植:Liuyuze61`
+    if (this.index < text.length){
+      this.showText += text.charAt(this.index);
+      this.index++;
+      setTimeout(() => {this.zhuzi()}, this.settings.textSpeed)
+    }
+    else{
+      if(this.settingsPage){
+        setTimeout(() => {
+          this.index = 0;
+          this.showText = '';
+          this.zhuzi()
+        }, 2000);
+      }
+    }
+  },
+  saveSettings(){
+    storage.set({
+      key: 'settings',
+      value: JSON.stringify(this.settings),
+      success: () => {prompt.showToast({message: '保存成功'})},
+      fail:()=>{},
+    })
+  },
+  closeTips(){
+    this.tips = false;
+    storage.set({
+      key: 'tips',
+      value: JSON.stringify(61),
+      success: () => {},
+      fail:()=>{},
+    })
+  },
+}
+</script>
+
+<style>
+.page {
+  width: 212px;
+  height: 520px;
+}
+.btn {
+  position: absolute;
+  font-size: 28px;
+  left: 112px;
+  width: 95px;
+  height: 59px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4F4F4F;
+  border-radius: 20px;
+}
+.scroll1{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-btn {
+  width: 250px;
+  height: 61px;
+  background-color: #999999;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.scroll{
+  position: absolute;
+  bottom: 0;
+  top: 360px;
+  left: 5px;
+  right: 0;
+  width: 202px;
+  height: 165px;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+.slider{
+  position: absolute;
+    width: 202px;
+    top: 125px;
+    left: 5px;
+}
+.text {
+  position: absolute;
+  font-size: 24px;
+  color: #000000;
+  top: 71px;
+  left: 18px;
+  font-weight: bold;
+}
+.font20 {
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+.color-box {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 300px;
+}
+</style>

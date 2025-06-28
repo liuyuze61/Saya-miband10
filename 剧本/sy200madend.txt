@@ -1,0 +1,517 @@
+﻿//凉子に電話した場合
+<MARKER NAME="#20">
+<MARKER NAME="#madend">
+　要被杀了——在这样的思维就要终结之时，<se id="1" src="ショットガン1" mode="normal" loop="off">，忽然一阵轰鸣声将他的意识拉了回来。
+
+<se id="1" src="沙耶ダメージ" mode="normal" loop="off">
+<voice NAME="沙耶" SRC="43\000101">『呀啊啊啊啊啊！！』<k>
+　
+　可怕的怪物惨叫起来。解开了对耕司的拘束，萎缩着撤了回去。<k>
+　
+<se id="1" src="女駆け寄り2" mode="normal" loop="off">
+　恢复了自由的耕司最先看到的，是单手握持拖着硝烟的霰弹枪，从走廊深处奔跑过来的凉子的身影。
+
+<voice NAME="耕司" SRC="43\000202">「医生！」<k>
+　
+　代替回答，凉子将另一只手掂着的银色筒子，扔给了倒在地上的耕司。<k>
+<se id="1" src="投げる2" mode="normal" loop="off">
+　这是在碰头的餐馆凉子给他看过的热水瓶。是凉子所说的『王牌』——
+
+<BUSTUP NAME="怖凉子" face="怒り3" MODE="on" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="凉子" SRC="43\000306">「把里面的东西泼向它！」<k>
+　
+　凉子边喊着，边将霰弹枪对准立离她有五步之遥蹲在地上的郁纪。双管的改造猎枪中还装着一发子弹。
+
+<BUSTUP NAME="怖凉子" face="怒り3" MODE="off" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="5">
+　刚刚的怪物吃了凉子一击似乎还不能站稳，它来回蠕动着身体表现出了痛苦的样子。<k>
+　枪弹并无法终结这些家伙，这一点耕司已经试验过了。机会，就只有现在。
+
+<voice NAME="郁紀" SRC="43\000400">「你们两个……做了什么……」<k>
+　
+　郁纪强忍着肋骨的疼痛，瞪向了凉子和耕司。<k>
+　耕司压抑着涌起的心绪，站起身来小心翼翼地打开了热水瓶的盖子。他也来不及思考这是剧毒还是别的什么了。
+
+<se id="1" src="魔法瓶開け" mode="normal" loop="off">
+　开封的同时涌起一股白雾，冷气呼地萦绕在了周围。<k>
+　这是——<k>
+　
+　了解到了里面是什么的耕司，毫不留情地，将热水瓶扔向了在地上痉挛着的肉块。
+
+<se id="1" src="投げる" mode="normal" loop="off">
+　热水瓶像烟雾弹一样散发着白色浓雾，在空中划过一条抛物线，四散的液体，如同洗礼般地落在了地上、以及蠕动着的那东西的身上。
+
+<se id="1" src="液体窒素" mode="normal" loop="off">
+<voice NAME="沙耶" SRC="43\000501">『唏噶啊啊啊啊啊啊啊啊啊！！』<k>
+　
+　这次的惨叫是霰弹枪的一击所完全无法比较的，是货真价实的临终的哀嚎。
+
+<voice NAME="沙耶" SRC="43\000601">『唏！　唏！ 唏！ 唏噶噶噶！！』<k>
+　
+　被白烟包裹着挣扎着的怪物那痛苦的惨叫，让凉子不服输似地发出了尖锐的哄笑声。
+
+<BUSTUP NAME="怖凉子" face="狂い目口2" MODE="on" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="凉子" SRC="43\000706">「啊哈哈哈！　如何啊？　这可是零下１９７度！　很冷吧？　很热？　瞧你那熊样哈哈！！」<k>
+　
+　击退了噩梦的对象，难道让凉子欢喜到不惜失去理性吗……她哪啊尖锐地笑着的样子，明显是失去了理智的狂躁。
+
+<BUSTUP NAME="怖凉子" face="怒り3" MODE="off" zoom="" ALIGN="left">
+<BUSTUP NAME="郁紀" face="斧怒り" MODE="on" zoom="" ALIGN="right">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="郁紀" SRC="43\000800">「你、们……你们两个！！」<k>
+　
+　郁纪喊叫着做出漆黑的诅咒，颤颤巍巍地站了起来。似乎是太过愤怒麻痹了他骨折的疼痛。<k>
+　
+<BUSTUP NAME="郁紀" face="斧怒り" MODE="off" zoom="" ALIGN="right">
+<BUSTUP NAME="怖凉子" face="通常狂笑1" MODE="on" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="5">
+　他手中的砍柴斧，凉子自然是视作威胁不敢轻视。作为哄笑的残渣，她的嘴角还残留着一抹冷酷的笑，就这样扣下了霰弹枪的扳机。
+
+<se id="1" src="ショットガン不発" mode="normal" loop="off">
+<BUSTUP NAME="怖凉子" face="通常無表情" MODE="on" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="5">
+　可唯有短暂而又黑暗的火焰从枪口漏出，她的枪便再度沉默了。<k>
+　
+<BUSTUP NAME="怖凉子" face="怒り3" MODE="on" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="凉子" SRC="43\000906">「……切！？」<k>
+　
+　并非枪械专家的凉子，没有足够的知识让她连弹药的保存状态都能注意得到。她觉得不管怎样，要是发展到不得不带枪过来的事态的话，那自己也差不多要死了。
+
+<BUSTUP NAME="怖凉子" face="怒り3" MODE="off" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="5">
+　凉子因愤怒和狼狈而咂舌，她打开了霰弹枪的弹药舱，用不习惯的动作将哑弹取出。<se id="1" src="斧引きずり" mode="normal" loop="off">与此同时，郁纪则在地上拖着斧头，用幽鬼一样的步伐走向凉子。
+
+　危险——耕司正想跑向郁纪而迈步，但却没迈出来，再度失去了平衡向前摔倒了。<k>
+　一只脚离不开地面。鞋底的橡胶被粘住了。是因为刚刚淋向沙耶的液氮。耕司站着的那一块地面被传播了极地的温度。<k>
+　
+　凉子手忙脚乱地从口袋里掏出新的子弹。而郁纪则缩短着距离双手持斧挥舞着。
+
+<voice NAME="耕司" SRC="43\001002">「可恶！」<k>
+　
+　耕司边骂着，边强行从地上拽起了鞋子。然而要跑过去已经来不及了。
+
+　凉子用力将重新装填好的弹药舱扣上，抬头打算瞄准。<k>
+　而郁纪已经来到了她的眼前。已经太近了。<se id="1" src="斧風切り1" mode="normal" loop="off">此时斧头正从凉子的头上呼啸着挥下。
+
+<voice NAME="耕司" SRC="43\001102">「住手！」<k>
+　
+<se id="1" src="涼子ダメージ" mode="normal" loop="off">
+　骨头粉碎的声音，肌腱断裂的声音，肉砸扁的声音一同混杂着，溅出飞沫。
+
+<voice NAME="凉子" SRC="43\001206">「啊咕……」<k>
+　
+　厚重的斧刃从凉子的左肩砍下，砍过锁骨和肩胛骨，击碎了几条肋骨直砸到肺，深入到她胸口的半途。<k>
+　凉子因那冲击而瞪大了眼睛，鲜血如同喷泉一样从她的唇间喷出。
+
+<clear>
+<LAYER SRC="45" TRANSPARENT="100" NUM="0" X="0" Y="0" ZOOM="100">
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　这伤足以当场致人死亡，而凉子不知道用了多大的意志力，在生涯的最后几秒取得了胜利。<se id="1" src="ショットガン構え" mode="normal" loop="off">那染满鲜血的嘴唇露出了微笑的形状，她抬起了霰弹枪的枪口。
+
+<scroll num="0" x="800" time="10" count="40">
+　并非对着正面，而是对着旁边。
+
+　枪口指着的，是一半体表像穿丧服般笼罩着７７开氏度的白霜，但即便如此还微微蠕动着的沙耶。
+
+<voice NAME="郁紀" SRC="43\001300">「住手啊啊啊！！」<k>
+
+<se id="1" src="ショットガン2" mode="normal" loop="off">
+<bgm src="" mode="normal" loop="on">
+<clear>
+<BACKGROUND SRC="45_2">//
+<WIPE EFFECT="fade" TIME="0">
+　郁纪的吼叫和１２号口径的枪声冲合在一起。耕司射出的手枪弹无法比拟的轰鸣和闪光，撼动着废墟中的大气。
+
+<se id="2" src="沙耶砕け散り" mode="normal" loop="off">
+<clear>
+<BACKGROUND SRC="#ffffff">//
+<WIPE EFFECT="fade" TIME="0">
+<clear>
+<BACKGROUND SRC="bg04ni0">//
+<WIPE EFFECT="fade" TIME="10">
+　破坏是彻底的。中弹的冲击，让沙耶被液氮领导的部分飞散到无影无踪。<k>
+　结冰后散成了粉尘沙耶的身体组织，如字面意思像雪一样洒满了房间的一个角落。<k>
+　
+<se id="1" src="沙耶瀕死" mode="normal" loop="off">
+　敞开成这样的伤口，是靠沙耶的特性也不可能堵的上的伤。<k>
+　剥落了将近一半体表的那身体，将内容物——几乎让人不敢相信是生物组织的阴毒液体、粘液、脂肪、逆流般地喷涌而出。
+
+<voice NAME="沙耶" SRC="43\001401">『……啊……啊……啊啊啊……』<k>
+　
+　怪物用纤细、甚至令人悲哀的微弱声音啼叫着，发出着死亡的痉挛。
+
+<bgm src="s11" mode="fadein" old="fadeout" time="30" COUNT="1;-1" LOOP="on">
+<clear>
+<BACKGROUND SRC="46">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<voice NAME="郁紀" SRC="43\001500">「沙耶——」<k>
+　
+　郁纪依旧保持着斧头砍进凉子肩膀的姿势，完全失去了所有的感情，用呆滞的表情看着这一切。
+
+　耕司再度抓起铁管，打算从背后给郁纪来上一击，然而这可怕的杀人鬼那实在是太过透明的表情，让耕司一时间愣住静静地站在了那儿。<k>
+　
+　郁纪将斧头从尸骸中拔出来，呆呆地，表情像是不知道站在那儿的人是谁一般地看着耕司。<k>
+　看着他那虚无的眼神，耕司明白了——郁纪的心里面，已经没有什么杀意了。
+
+<clear>
+<BACKGROUND SRC="bg04ni0">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　郁纪拿着斧柄的片上的地方举到脸的高度。将斧刃翻了过来。<k>
+　
+<voice NAME="耕司" SRC="43\001602">「……」<k>
+　
+　到底是否应该阻止他呢，耕司无法判断。就算应该阻止，他也不知道说些什么才好。
+
+　郁纪缓慢却又坚定地，将头仰向了后方……下一个瞬间，就像是发条玩具一般用机械的姿势，将斧刃冲着脑袋砸了下去。<k>
+　
+<se id="1" src="郁紀自殺1" mode="normal" loop="off">
+　伴着咚……地一声沉重阴湿的声音，他的额头撕裂开来。飞沫甚至都溅到了耕司的脸上。
+
+　这一击自裁的气势毫不手软，然而这一击却没能致他死亡。<k>
+　脸变得一片通红的郁纪，再度，比刚刚更慢地仰起头，然后挤出生命中最后的力量，将染血的斧刃砸在头上。
+
+<se id="1" src="郁紀自殺2" mode="normal" loop="off">
+//　ゴシャッ。<k>
+　声音比第一次更加阴湿。<k>
+　
+　在那之后，郁纪就像跨喳一下断了线的人偶一般，<se id="1" src="倒れる" mode="normal" loop="off">栽倒向了前方。
+
+　一时之间，耕司带着一种连自己都不知道自己是否还拿着铁棒站在那儿的，被搁置了的心态，静静地望着两具尸骸。<k>
+　空气中积淤的空气散发着让人作呕的血腥味，血糊止不住地在落着白霜的地上散开，然而即便如此，这幅场面也想画一样的静谧。
+
+<se id="1" src="沙耶移動3" mode="normal" loop="off">
+　滴哒，微弱的黏湿声音打破了静谧。<k>
+　耕司忽然想到了似地，看向了那受到致命伤的怪物。<k>
+　它已经明显等同于一具尸体了，但即便如此还在动。它晃晃悠悠地，用成不了任何威胁的缓慢动作，想要游过化作血海的地面。——爬向郁纪的方向。
+
+　突然，至今都忘了的猛烈的愤怒，在耕司的心里复苏了。
+
+<BUSTUP NAME="耕司" face="戦闘険しく怯え" MODE="on" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="耕司" SRC="43\001702">「……死吧」<k>
+　
+　耕司低沉地呢喃着，将铁管的管头戳向怪物。怪物痛苦地颤抖着，但即便如此也没用放弃前进。
+
+　耕司火上心头。<k>
+　
+<BUSTUP NAME="耕司" face="戦闘怒り2" MODE="on" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="耕司" SRC="43\001802">「死吧！　给我去死吧！　别再给我继续，接近郁纪了！」<k>
+　
+<se id="1" src="耕司攻撃2" mode="normal" loop="off">
+<clear>
+<BACKGROUND SRC="#ffffff">//
+<WIPE EFFECT="fade" TIME="0">
+<BACKGROUND SRC="bg04ni0">//
+<WIPE EFFECT="fade" TIME="0">
+　耕司反反复复地用铁管殴打起了，已经无法做到任何抵抗的肉块。如果现在不在这里制止它的话，那才真是自己输了……不知为何耕司毫无来由地有这种想法。
+
+<se id="1" src="耕司攻撃2" mode="normal" loop="off">
+<clear>
+<BACKGROUND SRC="#ffffff">//
+<WIPE EFFECT="fade" TIME="0">
+<BACKGROUND SRC="bg04ni0">//
+<WIPE EFFECT="fade" TIME="0">
+　但怪物直到最后都没有屈服于耕司的殴打，终于来到了郁纪的亡骸之前。<k>
+　
+<se id="1" src="耕司攻撃2" mode="normal" loop="off">
+<clear>
+<BACKGROUND SRC="#ffffff">//
+<WIPE EFFECT="fade" TIME="0">
+<BACKGROUND SRC="bg04ni0">//
+<BUSTUP NAME="耕司" face="戦闘怒り2" MODE="on" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="0">
+<voice NAME="耕司" SRC="43\001902">「别碰！ 别碰郁纪！ 你这家伙——到底是什么东西！ 啊啊！？」
+
+<se id="1" src="耕司攻撃2" mode="normal" loop="off">
+<clear>
+<BACKGROUND SRC="#ffffff">//
+<WIPE EFFECT="fade" TIME="0">
+<BACKGROUND SRC="bg04ni0">//
+<WIPE EFFECT="fade" TIME="0">
+　耕司已经是半哭着了，他任凭愤怒驱使挥下铁管。耕司溅到血沫的脸，又溅到了怪物那污秽的体液。
+
+<se id="1" src="" mode="normal" loop="off">
+　怪物晃晃悠悠地深处细细的颤抖着的触手，摸了摸郁纪的肩膀，然后似乎很怜爱地抚摸起他那被血染红的脸颊——<k>
+　
+　然后她便不再动了。
+
+　直到最后的瞬间，怪物都不愿抛下郁纪。和郁纪相依着死去了。<k>
+　
+　耕司终于明白了，自己什么都没能取回。
+
+//エンディング：耕司
+<bgm src="s11" mode="fadeout" time="20" loop="off">
+<clear>
+<WIPE EFFECT="fade" TIME="20">
+<wait time="2700">
+<bgm src="s01" mode="fadein" old="fadeout" time="10" loop="on">
+<se id="1" src="カフェテリア" mode="normal" loop="off">
+<BACKGROUND SRC="16_2">//
+<WIPE EFFECT="fade" TIME="20">
+<wait time="200">
+<box type="9">
+<voice NAME="青海" SRC="44\000104">「呐呐，关于下次滑雪旅行。今年我们要不要找个还能玩滑冰的地方啊？」<k>
+　
+　坐在旁边的青海，咔啦咔啦地动着裸露的頬骨这样提议道。<k>
+　她就像是身体里被虫子啃食了一样，看起来非常瘦。说起来她前一阵子正在意体重呢，这样的话就没必要再减肥了吧。
+
+<clear>
+<BACKGROUND SRC="ba01me0" shade="4">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<voice NAME="郁紀" SRC="44\000200">「哈哈，说起来青海，在前不久第一次滑了冰是吧？」<k>
+　
+<BUSTUP NAME="郁紀" face="血まみれ" MODE="on" zoom="" ALIGN="right">
+<WIPE EFFECT="fade" TIME="5">
+　郁纪笑着接纳了青海那异想天开的提议。从声音上能听得出是在笑，但从那背负投劈成两半的脸上就很难看出表情了。
+
+<voice NAME="郁紀" SRC="44\000300">「到了二十岁才第一次尝试那个，这年可不怎么多见了吧？」<k>
+<voice NAME="青海" SRC="44\000404">「小时候总觉得很可怕嘛。那个鞋子，感觉就跟利器似的」<k>
+<voice NAME="郁紀" SRC="44\000500">「嗯，我懂的。要是被那个鞋子踢了脸，肯定就会变成我这样了呢」
+
+<BUSTUP NAME="瑶" face="目閉じ笑い" MODE="on" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="5">
+　郁纪那无聊的笑话，让青海和瑶笑出了声。<k>
+　若是过去的瑶，完全想象不出她会那么爽朗地笑。<k>
+　正式和郁纪成为了恋人，她是真的很幸福的样子。<k>
+　
+<BUSTUP NAME="瑶" face="通常" MODE="on" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="瑶" SRC="44\000605">「但是，你刚一踢就杀了吗？　青海你挺厉害的吧？」
+
+<voice NAME="郁紀" SRC="44\000700">「毕竟要领和棒球区别不大吧。狠狠地往前一挥，任凭斧头的重量砸过去之类的」
+
+<clear>
+<BACKGROUND SRC="16_2">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<voice NAME="青海" SRC="44\000804">「就是因为郁纪这样跟我说啦，所以才想着就当是被骗了，来试着杀一杀。结果一杀还真挺开心的」<k>
+　
+　这股难以形容的违和感是怎么回事呢？　有什么地方好奇怪。然而说不出是哪里奇怪——
+
+<clear>
+<BACKGROUND SRC="ba01me0" shade="4">//
+<BUSTUP NAME="瑶" face="困り笑い" MODE="on" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<voice NAME="瑶" SRC="44\000905">「呼嗯……我也好想看看呢。青海被吃的样子」<k>
+　
+　啊啊，对了。<k>
+　看着瑶那羡慕的笑脸，耕司终于注意到了。<k>
+　
+<voice NAME="耕司" SRC="44\001002">「呐，津久叶……」
+
+<BUSTUP NAME="瑶" face="通常" MODE="on" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="瑶" SRC="44\001105">「嗯？　怎么了耕司君？」<k>
+<voice NAME="耕司" SRC="44\001202">「为什么，只有你……是正常的啊？」<k>
+　
+　或许是不明白耕司那提问的意义吧，瑶有些一头雾水的样子。
+
+<voice NAME="瑶" SRC="44\001305">「正常？　我一直都很正常吧？」<k>
+<voice NAME="耕司" SRC="44\001402">「但你，我记得，那个时候——」<k>
+　
+<BUSTUP NAME="瑶" face="目閉じ笑い" MODE="on" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="瑶" SRC="44\001505">「啊啊，嗯嗯」<k>
+　
+　瑶像是察觉到了耕司想说什么一样，带着理解的表情点了点头。<k>
+　
+<voice NAME="瑶" SRC="44\001605">「什么啊，是说我和耕司君有着不同姿态的那时候？　那不是很久之前的事了吗」
+
+<voice NAME="耕司" SRC="44\001702">「很久……之前吗？」<k>
+<voice NAME="瑶" SRC="44\001805">「是啊」<k>
+　
+　瑶又用不像瑶的豁达表情，对耕司的疑惑一笑了之。<k>
+　
+<BUSTUP NAME="瑶" face="通常" MODE="on" zoom="" ALIGN="left">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="瑶" SRC="44\001905">「毕竟耕司君，现在也是我们的同伴了不是吗」<k>
+<voice NAME="耕司" SRC="44\002002">「——」
+
+<se id="1" src="くちゃくちゃ5" mode="normal" loop="off">
+<bgm src="s01" mode="fadeout" time="20" loop="off">
+<clear>
+<BACKGROUND SRC="bp03me0" shade="4">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　啊啊，这样啊。<k>
+　耕司俯视起自己的手脚，看到在那呼哧呼哧蠕动着的触手，他理解了。
+
+<clear>
+<BACKGROUND SRC="#000000">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<se id="1" src="" mode="normal" loop="off">
+<BACKGROUND SRC="bi03da0">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　睁开眼睛，不管是枕头还是床垫都被汗水所打湿了。<k>
+　
+<bgm src="s04" mode="fadein" old="fadeout" time="10" loop="on">
+　一如既往的，噩梦。不知道这是第多少次了。最近他也已经不会大叫着跳起来了。<k>
+<se id="1" src="ベット立ち上がり" mode="normal" loop="off">
+　耕司抱着隐隐作痛的脑袋，从床上直起了身。<k>
+　
+　凌晨４点。<k>
+　休息得完全不够，但今晚已经没法再睡着了吧。<k>
+　总之，得抽一根。有一盒的话就能撑到天亮。昨天买来的存货放到哪儿了来着。
+
+<clear>
+<BACKGROUND SRC="bi01da0">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　他恍惚地晃悠到客厅，在那里他碰到了一位熟悉的客人。<k>
+　
+<voice NAME="凉子" SRC="44\002106">「你这模样可真够惨呢」<k>
+<voice NAME="耕司" SRC="44\002202">「——嗯嗯，医生。你来了啊」<k>
+　
+　坐在饭桌前的斩杀致死的死尸，现在正用一如既往冷淡的表情啜饮这马克杯里的咖啡。
+
+<voice NAME="凉子" SRC="44\002306">「你看上去每晚都很辛苦的样子呢。不怎么睡得着觉吧？」<k>
+<voice NAME="耕司" SRC="44\002402">「也并非如此。只要喝了药，意外地还能撑得住。目前还是这样」<k>
+　
+　耕司边直爽地应答着，边坐在了桌子的对面。
+
+　比起刚刚那样场景凝练的噩梦，这样的幻觉更容易出现。这症状或许已经很重了。<k>
+　
+<voice NAME="凉子" SRC="44\002506">「那个时候你要是听我忠告的话，那就不会被逼到这个境地了吧」<k>
+<voice NAME="耕司" SRC="44\002602">「别再说了吧。那不都是过去的事了吗」
+
+　凉子带着和她生前一样的冰冷扭曲的笑容，晃动着身子，直撕裂到胸口的左肩，像是多余的东西似地耷拉着，让胳膊呼呼地摇动。<k>
+　
+<voice NAME="凉子" SRC="44\002706">「是吗……你已经磨合得挺好了啊」
+
+<voice NAME="耕司" SRC="44\002802">「医生你不也是吗？　平时都还用优秀的脑外科医生的形象来掩饰」<k>
+<voice NAME="凉子" SRC="44\002906">「只是做做表面功夫的话，也没那么难呢」<k>
+　
+　死尸耸了耸肩——虽说如此但动了的也只有平安无事的右肩而已——<se id="1" src="コーヒー飲む" mode="normal" loop="off">用似乎很难喝的表情又喝了一口咖啡。
+
+<voice NAME="凉子" SRC="44\003006">「但是啊，未来会变得更糟哦。<k><voice NAME="凉子" SRC="44\003006_2">心里的伤痛会随着时间治愈，但你，嘛，要说的话就像是感染了毒一样吧」
+
+　就是这样吧。<k>
+　人在夜晚来临的时候便会做梦。就算记忆再怎么远去，噩梦都会用每晚新长出的獠牙，咬向耕司的心。<k>
+　心中的疯狂就这样一点点生根发芽，终将覆盖耕司所剩下的一切吧。
+
+<voice NAME="耕司" SRC="44\003102">「因为我能看着医生你这个前例学着点呢。自然不会疏于准备的」<k>
+<voice NAME="凉子" SRC="44\003206">「嘿，是这样吗？」
+
+<clear>
+<BACKGROUND SRC="bi02da0">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　耕司自信地笑着点点头，站起来走向洗手间，取出了镜子后的药柜中藏着的凶器。<k>
+　
+<se id="1" src="拳銃受け取り" mode="normal" loop="off">
+　奥涯的手枪。这是耕司在那一夜拿回来的，异界的唯一纪念品。
+
+<voice NAME="耕司" SRC="44\003302">「费了我好大的力气，终于和道上的人搭上了线。<k><voice NAME="耕司" SRC="44\003302_2">子弹我也买了。真惊到我了呢。居然比枪还贵」<k>
+<voice NAME="凉子" SRC="44\003406">「啧啧」<k>
+　
+　镜子映照下的客厅里，斧头断面颠倒过来的凉子，像是喝彩般地端起马克杯称赞起了耕司。
+
+<voice NAME="凉子" SRC="44\003506">「那，你买了多少发子弹？」<k>
+<voice NAME="耕司" SRC="44\003602">「只有一发」<k>
+　
+　这次则是耕司耸了耸肩。作为生者的特权，两边的肩膀都能动。<k>
+　
+<voice NAME="耕司" SRC="44\003702">「我可不想再遇到——还需要更多子弹的情况了」<k>
+<voice NAME="凉子" SRC="44\003806">「呼嗯……」<k>
+　
+　镜子中那被砍杀的死尸，带着有些微妙的表情点了点头。
+
+<voice NAME="凉子" SRC="44\003906">「你可真是明白啊，户尾君」<k>
+　
+　一时间陷入了沉默。<k>
+　对耕司来说，实在是不想跟一个死尸陷入阴郁的气氛之中。
+
+<clear>
+<BACKGROUND SRC="bi01da0">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<voice NAME="耕司" SRC="44\004002">「呐，医生，差不多别再喝家庭餐厅的咖啡了吧。要不然我给你冲一杯新的——」<k>
+　
+<bgm src="s04" mode="fadeout" time="20" loop="off">
+　耕司边说着便转过头，却只发现无人的餐桌沉静在深夜的静谧之中。<k>
+　
+<voice NAME="耕司" SRC="44\004102">「……」<k>
+　
+　这样看来，耕司似乎终于是回到了正常人类的世界。
+
+<se id="1" src="ライター" mode="normal" loop="off">
+<bgm src="s07" mode="fadein" old="fadeout" time="10" COUNT="1;-1" LOOP="on">
+　耕司点着第一根烟，边深深地把烟吸进去再吐出来，边一个人坐在客厅里，看着手中的手枪。<k>
+　耕司自己也明白，现在自己正处在危险的平衡点上。
+
+　凉子所说的“最后的一条线”，如今耕司已经迈过了。而踏足到这里的耕司，心中已经没有能当做防壁的东西了。<k>
+　不论是奥涯雅彦的妄想、丹保凉子的偏执，全部都化作了实体的威胁，告诉着他疯狂和绝望为何物。
+
+　在世间，匂坂郁纪也已经作为猎奇杀人犯被通缉了。<k>
+　从无人了的匂坂家和隔壁的铃见家发现大量人肉，并没花多少时间。从两家的冰箱里，总共发现了铃见洋佑和他的妻女，以及高畠青海四个人。<k>
+　
+　衣服之类的遗留品是津久叶瑶的，而发现的遗体残片中，并没有检验出她的，这让耕司的噩梦又变得深邃了一些。
+
+　至于同时期谜一样地失踪了的Ｔ医大的丹保凉子医生，犹豫她是郁纪的主治医生，所以也被怀疑是因为同一事件。<k>
+　而在那个废墟后院里不为人知地埋葬者的两人的遗体，恐怕不会被任何人发现吧。事件毫无疑问陷入了迷宫之中。<k>
+　
+　唯一一个知道真相的人，耕司，丝毫也没用挑明这一切的想法。目前没有，将来也不会有。
+
+　奥涯的手记并非是戏言。也就是说，除此之外的一切都是戏言。<k>
+　人是万物之灵长什么的，这种傻缺的戏言到底是谁说的呢？<k>
+　什么人类的睿智、人类的勇气，会将这种戏言当个宝贝深信不疑的——就只有没有窥探过深渊的，幸福的人而已。
+
+　而户尾耕司，已经无法再和人们分享这种无知而天真的幸福了。<k>
+　因为他已经知道了。冒着名为现实的疯狂，被污淤，变得无法再相信任何事物了。
+
+　如果说自己感染了毒的话——那现实才正是那毒吧。<k>
+　正如纯粹的氧气对生物是有害的那样，裸露的现实，也能够破坏人的精神。<k>
+　氧气掺杂着五倍的氮气，才能作为空气被接受。和这是一样的。呼吸着被戏言所稀释，只有只鳞片爪的现实，人类才能维持健康的心。
+
+<clear>
+<BACKGROUND SRC="bi02da1">//
+<WIPE EFFECT="fade" TIME="10">
+<box type="9">
+<voice NAME="凉子" SRC="44\004206">“不管世界变得如何的糟糕——”<k>
+　
+　耕司的脑海里闪过的，是生前的、真正的丹保凉子亲口所说的话。<k>
+　
+<voice NAME="凉子" SRC="44\004306">“除了尖叫着来回逃窜以外自己都还有其它的选择——”<k>
+　
+<bgm src="s07" mode="fadeout" time="20" loop="off">
+　这毫无疑问，是隐藏在她心里的自我安慰吧。是让她面对每晚都会袭来的噩梦的护身符吧。
+
+<clear>
+<BACKGROUND SRC="bi02da0">//
+<WIPE EFFECT="fade" TIME="10">
+<box type="9">
+　将前人的教训铭记在心中的耕司，当然，不会疏于准备。<k>
+　
+　仅有的一发子弹，一直都在洗手间的镜子后，确保着耕司的救赎。
+
+<CALC WORKNAME="ENDING" OPERATOR="1" MODE="global">
+<clear>
+<BACKGROUND SRC="#000000">//
+<WIPE EFFECT="fade" TIME="20">
+<bgm src="ガラスの靴" mode="normal" loop="off">
+<SYSTEM MENU="#FFE">
+<SYSTEM CMD="ending" ROLL="staff">
+<END>
+

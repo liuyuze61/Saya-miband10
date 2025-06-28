@@ -1,0 +1,197 @@
+﻿//廃墟：郁紀
+<MARKER NAME="#合流">
+<bgm src="s01" mode="fadeout" time="20" loop="off">
+<clear>
+<WIPE EFFECT="fade" TIME="20">
+<wait time="900">
+<bgm src="s04" mode="fadein" old="fadeout" time="10" COUNT="1;-1" LOOP="on">
+<BACKGROUND SRC="bj01me0" shade="4">//
+<WIPE EFFECT="fade" TIME="20">
+<wait time="200">
+<box type="9">
+　自从夏天那场事故以来别说握方向盘，对我而言骑自行车都是很危险的尝试。<k>
+　毕竟现在的我，连道路和汽车都认不清。直到今早被逼无奈为止，我都因为太过危险而不愿开车上路。<k>
+　但在这三个月中，与感官异常磨合着生活了那么久的我，已经能分得清眼里的诸多物体哪些是车哪些是人了。<k>
+　信号灯也是，就算看不出红绿也能看出来意思，也可以靠前车转向灯和刹车灯的闪烁大致判断出来。
+
+　虽然再怎么说也没法连道路标识都理解，但真试着开起车来倒也没那么不便，我平安无事地将坐在后座的沙耶和瑶带到了目的地。<k>
+　舍弃了自家的宅子逃亡，是沙耶帮我们想到了一个好去处。那是在她还住在奥涯教授家里的时候，深夜散步时发现的废墟。
+
+<clear>
+<BACKGROUND SRC="#000000">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<BACKGROUND SRC="bg01me0" shade="4">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　这是一片似乎还在开发中的郊外丘陵地上的住宅区，只要稍微往里面去一点，就是一片荒无人烟的偏僻的森林，这丝毫不奇怪。这里曾经是沙耶的“游乐园”，就是这样一片与“日常”完全隔绝开来的如同结界般的地方。<k>
+　过去这曾是一家开在恬静森林里的私营疗养院。因为不景气而倒闭，然后也找不到人接盘就搁置，而被忘却了吧。<k>
+　
+　我先让沙耶她们在这里等着，然后回到街市上做好诸多准备，现在终于回来了。
+
+<clear>
+<BACKGROUND SRC="bg02me0" shade="4">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　光是看到一眼外观，我就相中了这个废墟。并不怎么宽敞的前院里，非法堆放的建材和大型垃圾堆成小山，成为了一道坚实的屏障。在这里比在自家更能免于外人的干涉吧。<k>
+　将所有人类都看做是可怕怪物的我，人类的生活在我心中已经如同淤泥一般了。不如说在这种废墟一般的没有人味儿的景观，才更加朴素没有装饰，能让我感到心安。
+
+//<bgm src="s07" mode="fadeout" time="20" loop="off">
+<clear>
+<BACKGROUND SRC="bg03me0" shade="4">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<voice NAME="郁紀" SRC="37\000100">「我回来了」<k>
+　
+　我怕沙耶她们把我当成别人而戒备，便打了声招呼，然后走下了她们所在的地下室。
+
+//<bgm src="s05" mode="fadein" old="fadeout" time="10" COUNT="1;-1" LOOP="on">
+<clear>
+<BACKGROUND SRC="bg04me0" shade="4">//
+<BUSTUP NAME="沙耶" face="通常笑顔2" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<voice NAME="沙耶" SRC="37\000201">「欢迎回来。开车不要紧吗？」<k>
+<voice NAME="郁紀" SRC="37\000300">「完全没问题。单行道的标记我也能明白是什么样的了。只要别开太快开开还是没问题的。话说，你这边情况怎么样？」<k>
+<BUSTUP NAME="沙耶" face="楽し目笑い" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="10">
+<voice NAME="沙耶" SRC="37\000401">「我调查了一通，果然自那之后没有人来过的迹象。这里很安全呢」<k>
+<voice NAME="郁紀" SRC="37\000500">「是吗。那就好」
+
+　本来我还有些不安，这种废墟会不会成为小混混的聚集地，或者是流浪汉的栖身之所。<k>
+　
+<BUSTUP NAME="沙耶" face="横見思案寂しげ" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="10">
+<voice NAME="沙耶" SRC="37\000601">「估计是因为外面堆积的那堆垃圾。那个普通人估计有点无法忍受吧？」<k>
+<voice NAME="郁紀" SRC="37\000700">「唔嗯……」<k>
+　
+　我是完全不在意，不如说感到有些舒坦。嘛，就是这么一回事吧。<k>
+　
+<BUSTUP NAME="沙耶" face="通常" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="10">
+<voice NAME="沙耶" SRC="37\000801">「话说，东西买的怎么样了呀？　找到好东西了吗？」<k>
+<voice NAME="郁紀" SRC="37\000900">「嗯嗯，当然了」
+
+<se id="1" src="包装とく" mode="normal" loop="off">
+<clear>
+<BACKGROUND SRC="41">//
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+　我带着有些自豪的心情，将在野营用品店买的新东西打开了包装。那是柄长一米左右的砍柴用的斧头。我买了把最大最结实的。<k>
+　
+<voice NAME="郁紀" SRC="37\001000">「刃长１５厘米以上的刀子明明都挂了个牌子说违反刀枪管制法，然而这玩意就摆在旁边卖哎。　真笑死我了」
+
+　我用双手掂量着那可靠的分量，像挥球棒那样抡了一下。<se id="1" src="斧風切り1" mode="normal" loop="off">钢铁的斧头以危险至极的威力，从人头的位置扫过。<k>
+　划过空中的斧刃虎虎生风，让蹲在地上的瑶似乎很害怕地颤抖了起来。
+
+<clear>
+<BACKGROUND SRC="bg04me0" shade="4">//
+<BUSTUP NAME="沙耶" face="寂しげ1" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="10">
+<wait time="200">
+<box type="9">
+<voice NAME="沙耶" SRC="37\001101">「锋利度怎样？　用瑶来试试如何？」<k>
+<voice NAME="郁紀" SRC="37\001200">「呃，这个有点……」<k>
+　
+　沙耶冷不丁地说出了危险的话，这让我实在是不知所措。<k>
+　
+<BUSTUP NAME="沙耶" face="楽し目笑い" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="10">
+<voice NAME="沙耶" SRC="37\001301">「不需要担心哦？　以瑶现在的身体，被利器伤到的话很轻易就能恢复的」<k>
+<voice NAME="郁紀" SRC="37\001400">「呃，就算这样也很痛的吧」
+
+<BUSTUP NAME="沙耶" face="目逸らし笑い2" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="沙耶" SRC="37\001501">「这样啊……嗯，也是哦」<k>
+　
+　沙耶似乎是真的忘了个干净，她转向什么都不懂的瑶，害羞地笑了起来。<k>
+　
+<BUSTUP NAME="沙耶" face="通常にっこり" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="10">
+<voice NAME="沙耶" SRC="37\001601">「但是啊，瑶疼痛时发出的声音，也很可爱的吧？」<k>
+<voice NAME="郁紀" SRC="37\001700">「呃不……用斧头砍人，果然还是不太情愿吧」
+
+<BUSTUP NAME="沙耶" face="きょとん" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="沙耶" SRC="37\001801">「是吗？　那耕司呢？」<k>
+<voice NAME="郁紀" SRC="37\001900">「这个嘛，因为——」<k>
+　
+　这件事都不需要问，但沙耶似乎还不明白。<k>
+　
+<voice NAME="郁紀" SRC="37\002000">「——因为我看不出他像是人类。所以要砍了他剁了他都没关系」
+
+<BUSTUP NAME="沙耶" face="無表情思案" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="10">
+<voice NAME="沙耶" SRC="37\002101">「呼嗯，区别有那么大吗？」<k>
+<voice NAME="郁紀" SRC="37\002200">「是啊。人类是有良心的。<k><voice NAME="郁紀" SRC="37\002200_2">不管是多么憎恨的人，一想要杀人良心都会制止的。而在这一点上我就有胜算」<k>
+<BUSTUP NAME="沙耶" face="寂しげB思案" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="10">
+<voice NAME="沙耶" SRC="37\002301">「……真的？」<k>
+　
+　这样问道的沙耶表情很是微妙。看来她对我和耕司的直接对决感到很不安。
+
+<voice NAME="郁紀" SRC="37\002400">「体格是那家伙占上风，普通地打的话我可能胜算很低。<k><voice NAME="郁紀" SRC="37\002400_2">但对我而言杀他是“消灭怪物”，而对他而言是“杀人”。这个影响是很大的。那家伙在最后的瞬间肯定会露出破绽的」<k>
+<BUSTUP NAME="沙耶" face="目逸らし困り" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="10">
+<voice NAME="沙耶" SRC="37\002501">「总觉得……很不安啊呢。这种所谓的心理战，那种不确定性……」<k>
+　
+<BUSTUP NAME="沙耶" face="驚き思案" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="10">
+　沙耶用平时没有的认真的表情凝视着地面，这样呢喃着，然后抬起头看向了我。
+
+<voice NAME="沙耶" SRC="37\002601">「呐，果然还是我去猎杀他不好吗？」<k>
+　
+　沙耶的这份心情我很开心。就算这在某种意义上是信不过我，但她还是比起自身的安危更担心我的安全。<k>
+　但是，我的这种心情也不输给她。<k>
+　
+<voice NAME="郁紀" SRC="37\002700">「靠沙耶的力气，像瑶那样的女孩子我觉得你或许还能轻易制伏，但跟男人为敌的话我想就很难了」
+
+<BUSTUP NAME="沙耶" face="横見思案" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="5">
+　我的脑海里，还有着沙耶被铃见强奸的痛苦记忆。似乎沙耶也察觉到了我的心思，有一瞬间陷入了沉默，但即便如此还是固执地不肯罢休。<k>
+　
+<BUSTUP NAME="沙耶" face="通常きょとん" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="10">
+<voice NAME="沙耶" SRC="37\002801">「但是，那个大叔，也是因为他先手袭击了我啊。大部分的人类，看到我都会吓瘫在地不能动了呢。<k><voice NAME="沙耶" SRC="37\002801_2">在医院里也是这样。敢正常跟我说话的就只有郁纪了」
+
+<BUSTUP NAME="沙耶" face="通常" MODE="off" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="郁紀" SRC="37\002900">「呼嗯……嘛，你这话可能也在理」<k>
+　
+　虽然这对我很没说服力，但沙耶的容貌其实很吓人，被她的面容吓到的对手会丧失战意，这是有可能的。<k>
+　铃见会胜过沙耶，是因为他被植下了和我一样的认知障碍，将沙耶看成是可爱的女孩子了。
+
+　但是，恐惧并不只会让人变弱。视情况也可能让人变得凶暴，变得无法对付。<k>
+　所以这种威吓，最终也只会变成沙耶所说的“不确定的心理战”。<k>
+　
+<voice NAME="郁紀" SRC="37\003000">「那，沙耶，你觉得这样如何——」<k>
+　
+　我将我忽然想到的新的作战方案告诉了沙耶。结果沙耶一改阴暗的表情笑了起来。
+
+<BUSTUP NAME="沙耶" face="にっこり笑顔" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="沙耶" SRC="37\003101">「这真是好主意！　嗯，郁纪真聪明！」<k>
+<voice NAME="郁紀" SRC="37\003200">「不至于啦……」<k>
+　
+　策略不分善恶，只要是能让我担负的危险降低，那对沙耶而言就已经是很棒的注意了。她可真是够实在的。这一点也很可爱。
+
+<BUSTUP NAME="沙耶" face="通常" MODE="on" zoom="" ALIGN="center">
+<WIPE EFFECT="fade" TIME="5">
+<voice NAME="沙耶" SRC="37\003301">「那，耕司他什么时候来啊」<k>
+//<A HREF="#郁紀2" OPERATOR="badend=1">
+<A HREF="sy172f.nps" OPERATOR="badend=1">
+<MARKER NAME="#凉子2">////
+<voice NAME="郁紀" SRC="37\003400">「不知道。到时候他会打电话来的吧。到时候就把他引到这里来结果了他」<k>
+　
+　耕司一定会追来的。我明白。那家伙不会放过我和沙耶的。
+
+　既然决定要逃跑那就一直逃到底也行，但即便如此我还是想要尽早抹消掉耕司这个存在。<k>
+　所以他主动来接触，只要不是明显的陷阱，那我就打算积极应战。
+
+//<A HREF="#合流2" OPERATOR="">
+<A HREF="sy173.nps" OPERATOR="">

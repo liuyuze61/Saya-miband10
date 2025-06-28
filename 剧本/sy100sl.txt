@@ -1,0 +1,15 @@
+﻿<MARKER NAME="#10">
+<LAYER SRC="#000000" TRANSPARENT="75" NUM="1">
+<WIPE EFFECT="fade" TIME="2">
+<CHOICE HREF="sy101end.nps" TEXT="想要恢复从前" OPERATOR=""></A>//
+<CHOICE HREF="sy103.nps" TEXT="已经不需要了" OPERATOR=""></A>//
+
+<LAYER SRC="" NUM="1">
+<WIPE EFFECT="fade" TIME="2">
+//<CHOICE HREF="#離別エンド" TEXT="想要恢复从前" OPERATOR=""></A>//
+//<CHOICE HREF="#三章へ" TEXT="已经不需要了" OPERATOR=""></A>//
+
+//※選択肢
+//・想要恢复从前
+//・已经不需要了
+
