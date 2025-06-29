@@ -26,7 +26,7 @@
         <text style="color: {{settings.textColor}};font-weight: bold;width: 100%;text-align: left;font-size: {{settings.textSize}}px;">{{showText}}</text>
       </scroll>
     </div>
-    <scroll scroll-y="true" bounces="true" class="page" style="position: absolute;background-color: #ffffff;flex-wrap: nowrap;flex-direction: column;align-items: center;" if="{{tips}}" @swipe="ban()">
+    <scroll scroll-y="true" class="page" style="position: absolute;background-color: #ffffff;flex-wrap: nowrap;flex-direction: column;align-items: center;" if="{{tips}}" @swipe="ban()">
       <text class="font20">在设置中调整</text>
       <text class="font20">显示速度和文字大小</text>
       <text class="font20">游戏中右滑进入菜单</text>
