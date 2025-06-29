@@ -12,7 +12,7 @@
       </scroll>
     </div>
     <!--隐藏文字框-->
-    <text class="hideText-btn" if="{{!hideTextBox}}" @click="showHideTextBox()">v</text>
+    <text class="hideText-btn" if="{{!hideTextBox && gameData.scenes[currentScene].choices == undefined && Img !== 'bg.png'}}" @click="showHideTextBox()">v</text>
     <div class="page" style="position: absolute;" if="{{hideTextBox}}"></div>
     <!--选项页-->
     <div class="page" style="position: absolute;" if="{{gameData.scenes[currentScene].choices !== undefined}}">
@@ -26,7 +26,6 @@
       <text class="menu-btn" @click="toRecoveryPage(1)">保存</text>
       <text class="menu-btn" @click="toRecoveryPage(2)">加载</text>
       <text class="menu-btn" @click="skipScene(1)">跳过场景</text>
-      <text class="menu-btn" @click="skipChapter()">跳过章节</text>
       <text class="menu-btn" @click="back('index')">返回标题</text>
       <text class="menu-btn" @click="back('m')">返回</text>
     </scroll>
@@ -79,7 +78,7 @@ export default {
       textSize: 22,
       textColor: '#000000',
     },
-    chapter: 0,
+    chapter: 1,
     menu: false,
     recovery: 0,
     choice: [],
@@ -124,10 +123,10 @@ export default {
     }, 1000);
   },
   loadData(chapter){
-    console.log('加载章节', chapter+1)
-    if(chapter>=10){prompt.showToast({message: '敬请期待'});return}
+    console.log('加载章节', chapter)
+    // if(chapter>=10){prompt.showToast({message: '敬请期待'});return}
     file.readText({
-      uri: `/common/sy/${chapter+1}.txt`,
+      uri: `/common/sy/${chapter}.txt`,
       success: (data)=> {
         if(data){
           this.gameData.scenes = JSON.parse(data.text);
@@ -225,7 +224,6 @@ export default {
         }else{
           this.ImgX = 0;
           folme.cancel({id:"bg"});
-          this.Img = 'bg.png';
           // if(this.chapter==9){
           //   prompt.showToast({message: '敬请期待'});
           //   return
@@ -235,7 +233,7 @@ export default {
             this.loadData(this.chapter);
             this.currentScene = 0;
             this.currentDialogue = 0;
-          }, 3000);
+          }, 50);
         }
       }
     }
@@ -249,13 +247,13 @@ export default {
     }
   },
   // 选择选项
-  selectChoice(choiceIndex) {
-    console.log('选择选项', choiceIndex)
-    this.choice.push(choiceIndex);
-    console.log(this.choice)
-    const nextSceneIndex = this.gameData.scenes[this.currentScene].choices[choiceIndex].nextScene;
-    this.currentScene += nextSceneIndex;
-    this.loadScene(this.currentScene);
+  selectChoice(choiceIdx) {
+    console.log('选择选项', choiceIdx)
+    console.log('跳转', this.gameData.scenes[this.currentScene].choices[choiceIdx].href)
+    this.chapter = this.gameData.scenes[this.currentScene].choices[choiceIdx].href;
+    this.currentScene = 0;
+    this.currentDialogue = 0;
+    this.loadData(this.chapter);
   },
   toRecoveryPage(a){
     this.recovery = a;
@@ -411,11 +409,11 @@ export default {
 }
 .choice {
   position: absolute;
-  width: 250px;
+  width: 200px;
   height: 61px;
-  left: 43px;
+  left: 6px;
   top: 100px;
-  background-color: rgba(80, 192, 231, 0.7);
+  background-color: rgba(0, 0, 0, 0.665);
   color: #ffffff;
   font-size: 24px;
   font-weight: bold;

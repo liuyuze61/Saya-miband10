@@ -1,14 +1,5 @@
 [
   {
-    "background": "",
-    "dialogues": [
-      {
-        "character": "",
-        "text": "﻿//大学：瑶"
-      }
-    ]
-  },
-  {
     "background": "ba03no0",
     "dialogues": [
       {
@@ -75,7 +66,7 @@
     "dialogues": [
       {
         "character": "",
-        "text": "课一上完，郁纪就慌慌张张离开了教室，<se id=\"1\" src=\"女駆け寄り\" mode=\"normal\" loop=\"off\">瑶差一点让他逃掉，好不容易才在走廊中追上了他。"
+        "text": "课一上完，郁纪就慌慌张张离开了教室，瑶差一点让他逃掉，好不容易才在走廊中追上了他。"
       },
       {
         "character": "瑶",

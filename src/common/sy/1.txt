@@ -1,5 +1,31 @@
 [
   {
+    "background": "logo",
+    "dialogues": [
+      {
+        "character": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "background": "fiction",
+    "dialogues": [
+      {
+        "character": "",
+        "text": "含有大量血腥内容！心理承受能力差者慎入！"
+      },
+      {
+        "character": "",
+        "text": "含有大量血腥内容！心理承受能力差者慎入！"
+      },
+            {
+        "character": "",
+        "text": "含有大量血腥内容！心理承受能力差者慎入！"
+      }
+    ]
+  },
+  {
     "background": "bp01me0",
     "dialogues": [
       {

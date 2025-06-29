@@ -26,17 +26,23 @@
         <text style="color: {{settings.textColor}};font-weight: bold;width: 100%;text-align: left;font-size: {{settings.textSize}}px;">{{showText}}</text>
       </scroll>
     </div>
-    <div class="page" style="position: absolute;background-color: #ffffff;flex-wrap: nowrap;flex-direction: column;align-items: center;justify-content: center;" if="{{tips}}" @swipe="ban()">
+    <scroll scroll-y="true" bounces="true" class="page" style="position: absolute;background-color: #ffffff;flex-wrap: nowrap;flex-direction: column;align-items: center;" if="{{tips}}" @swipe="ban()">
       <text class="font20">在设置中调整</text>
       <text class="font20">显示速度和文字大小</text>
       <text class="font20">游戏中右滑进入菜单</text>
-      <text class="font20" style="color: #ff0000;">点击速度不要过快</text>
+      <text class="font20" style="color: #ff0000;">含有大量血腥内容！心理承受能力差者慎入！</text>
+      <text class="font20" style="color: #ff0000;">含有大量血腥内容！心理承受能力差者慎入！</text>
+      <text class="font20" style="color: #ff0000;">含有大量血腥内容！心理承受能力差者慎入！</text>
       <text class="font20" style="color: #ff0000;">有能力请支持正版</text>
       <text class="font20">---------------</text>
       <text class="font20">制作：@liuyuze61</text>
       <text class="font20">---------------</text>
+      <text class="font20">免责声明</text>
+      <text class="font20">下载、安装、运行或以任何方式使用本软件，即表示您同意完全接受本声明的所有条款。如果您不同意本声明的任何条款，请立即停止使用并删除本软件。</text>
+      <qrcode style="width: 150px;height: 150px;" value="https://sixoneteam.top/%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E.txt"></qrcode>
       <text class="font20" style="color: #00a2ff;" @click="closeTips()">确定</text>
-    </div>
+      <text class="font20">---------------</text>
+    </scroll>
   </div>
 </template>
 

@@ -1,14 +1,5 @@
 [
   {
-    "background": "",
-    "dialogues": [
-      {
-        "character": "",
-        "text": "﻿//匂坂邸前：郁紀"
-      }
-    ]
-  },
-  {
     "background": "bc01me0",
     "dialogues": [
       {
