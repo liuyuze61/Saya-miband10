@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "background": "bc04no0",
     "choices": [
